@@ -1,0 +1,17 @@
+{
+  "name": "3DVideoBox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/style.scss css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Martin Georgiev",
+  "license": "MIT",
+  "dependencies": {}
+}

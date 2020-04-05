@@ -1,0 +1,26 @@
+@media all and (max-width:700px){
+    .container{
+        .box{
+         width: 40vh;
+        height: 40vh;
+        span:nth-child(1){
+            transform: translate3d(0,0,150px);
+        }
+        span:nth-child(2){
+            transform: rotateX(90deg) translate3d(0,0,150px);
+        }
+        span:nth-child(3){
+            transform: rotateX(90deg) translate3d(0,0,-150px);
+        }
+         span:nth-child(4){
+            transform: rotateY(-90deg) translate3d(0,0,150px);
+        }
+        span:nth-child(5){
+            transform: rotateY(-90deg) rotate(360deg) translate3d(0,0,-150px);
+        }
+        span:nth-child(6){
+            transform: translate3d(0,0,-150px);
+        }
+        }
+    }
+}
